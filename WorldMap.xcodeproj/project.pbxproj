@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D7CC3A1153274E800A09E1B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7CC3A0153274E800A09E1B /* Cocoa.framework */; };
+		7D7CC3AB153274E800A09E1B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D7CC3A9153274E800A09E1B /* InfoPlist.strings */; };
+		7D7CC3AD153274E800A09E1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D7CC3AC153274E800A09E1B /* main.m */; };
+		7D7CC3B1153274E800A09E1B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7D7CC3AF153274E800A09E1B /* Credits.rtf */; };
+		7D7CC3B4153274E800A09E1B /* BNRAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D7CC3B3153274E800A09E1B /* BNRAppController.m */; };
+		7D7CC3B7153274E800A09E1B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D7CC3B5153274E800A09E1B /* MainMenu.xib */; };
+		7D7CC3C21532763400A09E1B /* map-paths.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7D7CC3C11532763400A09E1B /* map-paths.txt */; };
+		7D7CC3C51532763E00A09E1B /* SvgToBezier.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D7CC3C41532763E00A09E1B /* SvgToBezier.m */; };
+		7D7CC3C81532785300A09E1B /* BNRWorldMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D7CC3C61532785300A09E1B /* BNRWorldMapView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D7CC39C153274E800A09E1B /* WorldMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D7CC3A0153274E800A09E1B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7D7CC3A3153274E800A09E1B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		7D7CC3A4153274E800A09E1B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7D7CC3A5153274E800A09E1B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7D7CC3A8153274E800A09E1B /* WorldMap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WorldMap-Info.plist"; sourceTree = "<group>"; };
+		7D7CC3AA153274E800A09E1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7D7CC3AC153274E800A09E1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D7CC3AE153274E800A09E1B /* WorldMap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WorldMap-Prefix.pch"; sourceTree = "<group>"; };
+		7D7CC3B0153274E800A09E1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		7D7CC3B2153274E800A09E1B /* BNRAppController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRAppController.h; sourceTree = "<group>"; };
+		7D7CC3B3153274E800A09E1B /* BNRAppController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRAppController.m; sourceTree = "<group>"; };
+		7D7CC3B6153274E800A09E1B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7D7CC3C11532763400A09E1B /* map-paths.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "map-paths.txt"; sourceTree = "<group>"; };
+		7D7CC3C31532763E00A09E1B /* SvgToBezier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SvgToBezier.h; sourceTree = "<group>"; };
+		7D7CC3C41532763E00A09E1B /* SvgToBezier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SvgToBezier.m; sourceTree = "<group>"; };
+		7D7CC3C61532785300A09E1B /* BNRWorldMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRWorldMapView.m; sourceTree = "<group>"; };
+		7D7CC3C71532785300A09E1B /* BNRWorldMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRWorldMapView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D7CC399153274E800A09E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D7CC3A1153274E800A09E1B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D7CC391153274E800A09E1B = {
+			isa = PBXGroup;
+			children = (
+				7D7CC3A6153274E800A09E1B /* WorldMap */,
+				7D7CC39F153274E800A09E1B /* Frameworks */,
+				7D7CC39D153274E800A09E1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D7CC39D153274E800A09E1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D7CC39C153274E800A09E1B /* WorldMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D7CC39F153274E800A09E1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D7CC3A0153274E800A09E1B /* Cocoa.framework */,
+				7D7CC3A2153274E800A09E1B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D7CC3A2153274E800A09E1B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D7CC3A3153274E800A09E1B /* AppKit.framework */,
+				7D7CC3A4153274E800A09E1B /* CoreData.framework */,
+				7D7CC3A5153274E800A09E1B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7D7CC3A6153274E800A09E1B /* WorldMap */ = {
+			isa = PBXGroup;
+			children = (
+				7D7CC3C71532785300A09E1B /* BNRWorldMapView.h */,
+				7D7CC3C61532785300A09E1B /* BNRWorldMapView.m */,
+				7D7CC3C11532763400A09E1B /* map-paths.txt */,
+				7D7CC3C31532763E00A09E1B /* SvgToBezier.h */,
+				7D7CC3C41532763E00A09E1B /* SvgToBezier.m */,
+				7D7CC3B2153274E800A09E1B /* BNRAppController.h */,
+				7D7CC3B3153274E800A09E1B /* BNRAppController.m */,
+				7D7CC3B5153274E800A09E1B /* MainMenu.xib */,
+				7D7CC3A7153274E800A09E1B /* Supporting Files */,
+			);
+			path = WorldMap;
+			sourceTree = "<group>";
+		};
+		7D7CC3A7153274E800A09E1B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D7CC3A8153274E800A09E1B /* WorldMap-Info.plist */,
+				7D7CC3A9153274E800A09E1B /* InfoPlist.strings */,
+				7D7CC3AC153274E800A09E1B /* main.m */,
+				7D7CC3AE153274E800A09E1B /* WorldMap-Prefix.pch */,
+				7D7CC3AF153274E800A09E1B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D7CC39B153274E800A09E1B /* WorldMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D7CC3BA153274E800A09E1B /* Build configuration list for PBXNativeTarget "WorldMap" */;
+			buildPhases = (
+				7D7CC398153274E800A09E1B /* Sources */,
+				7D7CC399153274E800A09E1B /* Frameworks */,
+				7D7CC39A153274E800A09E1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorldMap;
+			productName = WorldMap;
+			productReference = 7D7CC39C153274E800A09E1B /* WorldMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D7CC393153274E800A09E1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BNR;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 7D7CC396153274E800A09E1B /* Build configuration list for PBXProject "WorldMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7D7CC391153274E800A09E1B;
+			productRefGroup = 7D7CC39D153274E800A09E1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D7CC39B153274E800A09E1B /* WorldMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D7CC39A153274E800A09E1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D7CC3AB153274E800A09E1B /* InfoPlist.strings in Resources */,
+				7D7CC3B1153274E800A09E1B /* Credits.rtf in Resources */,
+				7D7CC3B7153274E800A09E1B /* MainMenu.xib in Resources */,
+				7D7CC3C21532763400A09E1B /* map-paths.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D7CC398153274E800A09E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D7CC3AD153274E800A09E1B /* main.m in Sources */,
+				7D7CC3B4153274E800A09E1B /* BNRAppController.m in Sources */,
+				7D7CC3C51532763E00A09E1B /* SvgToBezier.m in Sources */,
+				7D7CC3C81532785300A09E1B /* BNRWorldMapView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7D7CC3A9153274E800A09E1B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D7CC3AA153274E800A09E1B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7D7CC3AF153274E800A09E1B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D7CC3B0153274E800A09E1B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		7D7CC3B5153274E800A09E1B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D7CC3B6153274E800A09E1B /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D7CC3B8153274E800A09E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7D7CC3B9153274E800A09E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7D7CC3BB153274E800A09E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WorldMap/WorldMap-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = "WorldMap/WorldMap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = "-Wall";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7D7CC3BC153274E800A09E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WorldMap/WorldMap-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = "WorldMap/WorldMap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = "-Wall";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D7CC396153274E800A09E1B /* Build configuration list for PBXProject "WorldMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D7CC3B8153274E800A09E1B /* Debug */,
+				7D7CC3B9153274E800A09E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D7CC3BA153274E800A09E1B /* Build configuration list for PBXNativeTarget "WorldMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D7CC3BB153274E800A09E1B /* Debug */,
+				7D7CC3BC153274E800A09E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D7CC393153274E800A09E1B /* Project object */;
+}
