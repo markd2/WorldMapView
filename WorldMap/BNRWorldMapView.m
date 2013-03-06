@@ -1,5 +1,8 @@
 #import "BNRWorldMapView.h"
 
+// Custom DTrace probes, just because.
+#import "WorldMapProbes.h"
+
 // Handy utility class to convert SVG stuff into an NSBezierPath.
 // Thanks to martin Haywood for making this.
 // http://ponderwell.net/2011/05/converting-svg-paths-to-objective-c-paths/
@@ -104,6 +107,7 @@ static NSDictionary *g_countryPaths;
         // Ask the delegate.
         NSColor *fillColor = [self.delegate worldMap: self
                                   colorForCountryCode: countryCode];
+
         if (fillColor == nil) fillColor = [NSColor whiteColor];
 
         [fillColor setFill];
@@ -130,7 +134,11 @@ static NSDictionary *g_countryPaths;
         NSBezierPath *path = [g_countryPaths objectForKey: countryCode];
         if ([path containsPoint: mouse]) {
 
-            NSLog (@"clicked in %@", countryCode);
+            if (BNRWORLDMAP_COUNTRY_CLICKED_ENABLED()) {
+                BNRWORLDMAP_COUNTRY_CLICKED (countryCode.UTF8String);
+            } else {
+                NSLog (@"clicked in %@", countryCode);
+            }
 
             // If the delegate responds to the selector, tell it that this country
             // was clicked.

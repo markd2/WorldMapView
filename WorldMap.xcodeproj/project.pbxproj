@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D0A7E9016E7A40A00098D3F /* WorldMapProbes.d in Sources */ = {isa = PBXBuildFile; fileRef = 7D0A7E8F16E7A40A00098D3F /* WorldMapProbes.d */; };
 		7D7CC3A1153274E800A09E1B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7CC3A0153274E800A09E1B /* Cocoa.framework */; };
 		7D7CC3AB153274E800A09E1B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D7CC3A9153274E800A09E1B /* InfoPlist.strings */; };
 		7D7CC3AD153274E800A09E1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D7CC3AC153274E800A09E1B /* main.m */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D0A7E8F16E7A40A00098D3F /* WorldMapProbes.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = WorldMapProbes.d; sourceTree = "<group>"; };
 		7D7CC39C153274E800A09E1B /* WorldMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D7CC3A0153274E800A09E1B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		7D7CC3A3153274E800A09E1B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -106,6 +108,7 @@
 		7D7CC3A7153274E800A09E1B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7D0A7E8F16E7A40A00098D3F /* WorldMapProbes.d */,
 				7D7CC3A8153274E800A09E1B /* WorldMap-Info.plist */,
 				7D7CC3A9153274E800A09E1B /* InfoPlist.strings */,
 				7D7CC3AC153274E800A09E1B /* main.m */,
@@ -184,6 +187,7 @@
 				7D7CC3B4153274E800A09E1B /* BNRAppController.m in Sources */,
 				7D7CC3C51532763E00A09E1B /* SvgToBezier.m in Sources */,
 				7D7CC3C81532785300A09E1B /* BNRWorldMapView.m in Sources */,
+				7D0A7E9016E7A40A00098D3F /* WorldMapProbes.d in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
