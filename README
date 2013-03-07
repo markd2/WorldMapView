@@ -3,3 +3,8 @@ World Map View
 This is a little demo program to support the Big Nerd Ranch weblog posting about protocols and delegates
 
 http://weblog.bignerdranch.com/?p=469
+
+Also has some custom DTrace probes, just because, to support
+yet another Big Nerd Ranch weblog post.
+
+http://blog.bignerdranch.com/?p=2150
