@@ -172,7 +172,7 @@ unichar const invalidCommand		= '*';
 				return nil;
 			}
 			// Maintain scale.
-			pathScale = (abs(value) > pathScale) ? abs(value) : pathScale;
+			pathScale = (fabsf(value) > pathScale) ? fabsf(value) : pathScale;
 			[token addValue:value];
 		}
 		
